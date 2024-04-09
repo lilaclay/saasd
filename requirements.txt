@@ -1,4 +1,4 @@
-Django==4.2.11
+Django==5.0.4
 cookiecutter==2.6.0
 #https://github.com/sloria/environs?tab=readme-ov-file#usage-with-django
 #environs[django]==11.0.0
