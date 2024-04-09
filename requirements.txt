@@ -1,0 +1,5 @@
+Django==4.2.11
+cookiecutter==2.6.0
+#https://github.com/sloria/environs?tab=readme-ov-file#usage-with-django
+#environs[django]==11.0.0
+#psycopg2-binary==2.9.9
