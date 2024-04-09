@@ -82,8 +82,8 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "saasd.users",
-    "saasd.billing",
     # Your stuff: custom apps go here
+    "saasd.billing",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
