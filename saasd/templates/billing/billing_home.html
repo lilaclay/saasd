@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
+<!-- language translation -->
+{% load i18n %}
+
 {% block content %}
-    <h1>Billing Dashbaord</h1>
-{% endblock content %}
+    <h1>Billing Dashboard</h1>
+
+    <!--<p>{% trans "You can add a credit card here: " %}</p>-->
+    <a href="{% url 'billing:checkout' %}" class="btn btn-primary">{% trans "Add a credit card" %}</a>
+    
+{% endblock %}
